@@ -27,6 +27,9 @@
 * \- git commit --amend - change the last commit, it will be calles text redactor(nano or vim)
 * \- git commit --amend -m - change the message in the last commit
 * \- git commit --amend --no-edit - change files in last commit without changing the message
+* \- git diff - see difference in last commit and now file states
+* \- git diff --staged - see difference in staged files too
+* \- git diff hash1 hash2 - see difference in commits with hash1 and hash2
 
 ### comands for work with public repository
 
