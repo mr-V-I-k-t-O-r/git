@@ -4,6 +4,7 @@
 
 ### comands for work with files
 
+
 * \- cd - move to directory
 * \- ls - show list of files and directories
 * \- touch - create file
@@ -15,11 +16,14 @@
 * \- mv - mpve file in other directory
 * \- vimtutor - tutorial for vim text redactor
 
+
 ### comands for work with local git 
 
 * \- git init - create GIT repository
 * \- git add - add file to GIT repository
 * \- git rm - delete file from GIT repository
+* \- git restore - return file to last state which saved by (git add)
+* \- git log - check history of commits
 * \- git restore - return file to last state which saved
 * \- git restore --staged - remove file from the stage
 * \- git reset --hard - return to one of old commits
@@ -31,9 +35,27 @@
 * \- git diff --staged - see difference in staged files too
 * \- git diff hash1 hash2 - see difference in commits with hash1 and hash2
 
+
 ### comands for work with public repository
 
 * \- ssh-keygen - generation ssh key for safety work
 * \- ssh - connection public to repository
 * \- git remote add - connection to public repository
 * \- git push - upload local repository state to public repository
+
+## GIT information
+
+### information about hash
+
+* \- every commit has own hash
+* \- hash - is a unique subsequence of signes
+
+### information about git log
+
+* \- flag --oneline prints a part from every commit which can place in 1 string
+
+### information about HEAD
+
+* \- HEAD - file in the .git directory, where pointed last commit
+* \- comand HEAD changes to a link to a last commit
+
