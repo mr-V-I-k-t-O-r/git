@@ -4,7 +4,7 @@
 
 ### comands for work with files
 
-* \- cd - move to dorectory
+* \- cd - move to directory
 * \- ls - show list of files and directories
 * \- touch - create file
 * \- mkdir - create directory
